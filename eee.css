@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #16e2f9;
+    background: linear-gradient(to top, #aa7efa, rgb(109, 12, 193), #16e2f9, rgb(179, 247, 255));
 }
 
 header.huvud {
@@ -13,6 +13,7 @@ header.huvud {
     text-align: center;
     border: 5px solid #940470;
     border-radius: 15px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 footer.fot {
     margin: 10px;
@@ -24,6 +25,7 @@ footer.fot {
     border-radius: 15px;
     font-size: 18px;
     font-weight: bold;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 .foot{
     text-decoration: none;
@@ -45,13 +47,14 @@ main.left {
     height: auto;
     border: 5px solid #940470;
     border-radius: 15px;
-    background-color: #0374b5;
+    background: linear-gradient(to bottom right, #0b679c, #aa7efa);
     font-weight: bold;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 
 article.right {
     grid-column: 2;
-    margin: 20px; 
+    margin: 20px;   
     padding: 20px;
     width: auto;
     height: auto;
@@ -59,6 +62,8 @@ article.right {
     border-radius: 15px;
     background-color: #02decc;
     font-weight: bold;
+    background: linear-gradient(to bottom left, #02decc, #aa7efa);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
 }
 img {
     max-width: 100%;
@@ -87,16 +92,22 @@ nav ul {
     list-style-type: none;
     padding: 7px;
     margin: 25px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+   
+}
+.lila{
+    display: inline-block;
     background-color: #62079f;
     border: 5px solid #940470;
     border-radius: 10px;
-}
-.lila{
-    display: inline;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
     margin: 0 35px;
+    padding: 5px 15px;
     font-size: 20px;
     font-weight: bold;
+    text-size-adjust: auto;
 }
 .list {
     list-style-type: symbols(circle);
