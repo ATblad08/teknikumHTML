@@ -110,7 +110,6 @@ nav ul {
     text-size-adjust: auto;
 }
 .list {
-    list-style-type: symbols(circle);
     margin-left: 20px;
     font-size: 16px;
     font-weight: bold;
